@@ -1,4 +1,8 @@
 {
+  "name": "promisy-f",
+  "version": "1.0.0",
+  "author": "icyfanfan",
+  "license": "ISC",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
@@ -6,12 +10,8 @@
     "format": "prettier --write \"src/**/*.{ts,js}\"",
     "lint": "prettier --check \"src/**/*.{ts,js}\""
   },
-  "dependencies": {
-    "canvas-confetti": "^1.2.0"
-  },
   "devDependencies": {
     "@snowpack/plugin-run-script": "^2.0.4",
-    "@types/canvas-confetti": "^1.0.0",
     "prettier": "^2.0.5",
     "snowpack": "^2.7.7",
     "typescript": "^3.9.7"

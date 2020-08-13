@@ -11,7 +11,9 @@
     /* noEmit - We only use TypeScript for type checking. */
     "noEmit": true,
     /* Additional Options */
-    "strict": true,
+    "strict": false,                           /* Enable all strict type-checking options. */
+    "noImplicitAny": false,                 /* Raise error on expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": false,    
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
